@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="image/traitym.png">
+    <link rel="stylesheet" href="mail.css">
+    <title>Gửi em!</title>
+</head>
+<body>
+    <div class="warpper preloading">
+        <div class="box">
+            <div class="mail">
+                <div class="heart">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h2>Gửi Emm!</h2>
+                    </div>
+                    <p>
+            Tại Mình Không Biết nói j ý :<,chỉ ns rằng bạn ct hết bọn xàm lồn kia ik:0 
+                    </p>
+                </div>
+            </div>
+        </div>
+</div>
+						<div class="col-12 text-center">
+							<div class="btn btn-primary mb-5"><a href="1.html" style="color: #f4f4f4;">Bấm vào :> <i class="fa-solid fa-heart"></i></a></div>
+						</div>
+        <div class="loader-wrapper">
+            <div class="loader">
+                <div class="inner one" style="--i:1;"></div>
+                <div class="inner two" style="--i:1;"></div>
+                <div class="inner three" style="--i:1;"></div>
+                <div class="box-heart">
+                    <div class="heartLoader"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script>
+        $(window).on('load', function(event){
+        $('body').removeClass('preloading');
+        $('.loader-wrapper').delay(1000).fadeOut('fast');
+    });
+    </script>
+    <body>
+        <div class="loading-wrapper">
+         <div class="loading-text"><hr>⚠️Đợi Một Xíu♻️<br>  Website Đang  Loading...<br> </div>
+         <div class="loading-bar-wrapper">
+          <div class="loading-bar"></div>
+         </div>
+        </div>
+       
+        <script>
+         window.addEventListener('load', function() {
+           var loading = document.querySelector('.loading-wrapper');
+           loading.style.display = 'none';
+         });
+        </script>
+        
+       <script>
+                   function VietKhanhStart() {
+                       audio.play()
+                   }
+                   const VietKhanh_List = ["Nhạc/11.mp3"];
+                   let index = Math.floor(Math.random() * VietKhanh_List.length);
+                   const audio = new Audio(VietKhanh_List[index]);
+                   function VietKhanhAudio() {
+                       audio.play()
+                   }
+                   document.addEventListener("click", VietKhanhAudio),
+                   audio.addEventListener("ended", function() {
+                       index = (index + 1) % VietKhanh_List.length,
+                       audio.src = VietKhanh_List[index],
+                       audio.play()
+                   })
+               </script> 
+        </body>
+</html>
